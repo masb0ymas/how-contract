@@ -1,9 +1,16 @@
 {
   "name": "how-contract",
+  "description": "House of Wizard Solidity Smart Contract",
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "clean": "npx hardhat clean",
     "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts",
+    "deploy:sepolia": "npm run deploy -- --network sepolia",
+    "deploy:base-mainnet": "npm run deploy -- --network base-mainnet",
+    "verify:sepolia": "npx hardhat verify --network sepolia",
+    "verify:base-mainnet": "npx hardhat verify --network base-mainnet",
     "test": "npx hardhat test"
   },
   "author": "masb0ymas <n.fajri@mail.com>",
