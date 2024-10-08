@@ -1,0 +1,15 @@
+{
+  "name": "how-contract",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
+  "author": "masb0ymas <n.fajri@mail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.12"
+  }
+}
